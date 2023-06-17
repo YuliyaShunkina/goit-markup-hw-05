@@ -723,8 +723,9 @@ img {
 .modal-form {
 }
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
+
 .input-wrap {
   position: relative;
 }
@@ -797,8 +798,7 @@ img {
   align-items: center;
   margin-bottom: 24px;
 }
-.modal-span {
-}
+
 .modal-span {
   width: 16px;
   height: 16px;
@@ -837,9 +837,9 @@ img {
   overflow: hidden;
 }
 .modal-send {
-  width: 169px;
+  min-width: 169px;
   height: 56px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
