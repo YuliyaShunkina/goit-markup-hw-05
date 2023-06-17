@@ -441,22 +441,24 @@
             </li>
           </ul>
         </div>
-        <form class="footer-form">
+        <div class="footer-subscribe-container">
           <p class="footer-input-name">Subscribe</p>
-          <label for="footer-email" area-label="foote email"></label>
-          <input
-            type="email"
-            name="footer-email"
-            id="footer-email"
-            placeholder="E-mail"
-            class="footer-input"
-          />
-          <button type="submit" class="footer-button">
-            Subscribe<svg class="footer-send" width="24" height="20">
-              <use href="./images/icons.svg#icon-icon-send"></use>
-            </svg>
-          </button>
-        </form>
+          <form class="footer-form">
+            <label for="footer-email">
+              <input
+                type="email"
+                name="footer-email"
+                id="footer-email"
+                placeholder="E-mail"
+                class="footer-input"
+            /></label>
+            <button type="submit" class="footer-button">
+              Subscribe<svg class="footer-send" width="24" height="20">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -516,7 +518,7 @@
           <div class="modal-field">
             <textarea
               name="modal-text"
-              id=""
+              id="modal-text"
               placeholder="Text input"
               class="modal-text"
             ></textarea>
