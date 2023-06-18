@@ -723,7 +723,7 @@ img {
 .modal-form {
 }
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .input-wrap {
@@ -799,7 +799,7 @@ img {
   margin-bottom: 24px;
 }
 
-.modal-span {
+.check-txt span {
   width: 16px;
   height: 16px;
   display: block;
